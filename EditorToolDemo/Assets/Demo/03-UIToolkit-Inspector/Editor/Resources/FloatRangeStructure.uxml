@@ -3,8 +3,8 @@
     <ui:VisualElement name="FloatRange" style="flex-grow: 0; flex-direction: row; overflow: hidden; justify-content: space-between;">
         <ui:Label text="Title" name="FieldName" style="-unity-text-align: middle-left; min-width: 20px; flex-grow: 1; max-width: 130px; overflow: hidden; flex-shrink: 1; text-overflow: ellipsis;" />
         <ui:VisualElement name="Fields" style="flex-grow: 1; align-items: flex-start; flex-direction: row-reverse; flex-shrink: 1;">
-            <ui:FloatField label="Min" value="0" name="Min" binding-path="m_Min" style="margin-right: 6px;" />
             <ui:FloatField label="Max" value="0" name="Max" binding-path="m_Max" style="margin-right: 6px;" />
+            <ui:FloatField label="Min" value="0" name="Min" binding-path="m_Min" style="margin-right: 6px;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
