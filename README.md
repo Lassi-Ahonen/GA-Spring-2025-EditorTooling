@@ -36,5 +36,23 @@ Attribute that checks boolean value and either disables or hides fields or prope
 ## 01-IMGUI
 TODO
 
-## 02-UI Toolkit
+## 02-UI Toolkit Window
 TODO
+
+## 03-UI Toolkit Inspector
+Includes demo for drawing custom data types in the inspector using UXML, USS and property drawers.
+
+[Demo Files](/EditorToolDemo/Assets/Demo/03-UIToolkit-Inspector)
+
+[Demo Scene](/EditorToolDemo/Assets/Scenes)
+
+### FloatRange
+Struct that stores min and max floating point values and can be used to get random values inside the range.
+The values are drawn on a single line in the inspector.
+
+![FloatRangeCode](https://github.com/user-attachments/assets/8f291ab9-8c4e-4b4d-bfae-0ceca9971c16)
+
+![FloatRangeInspector](https://github.com/user-attachments/assets/126d8574-3fe5-4629-b57c-925a29a79954)
+
+
+
