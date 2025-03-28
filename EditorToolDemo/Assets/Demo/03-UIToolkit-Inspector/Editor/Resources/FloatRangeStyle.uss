@@ -1,0 +1,8 @@
+FloatField > .unity-label {
+    min-width: 25px;
+}
+
+FloatField > .unity-float-field__input {
+    min-width: 70px;
+    max-width: 70px;
+}

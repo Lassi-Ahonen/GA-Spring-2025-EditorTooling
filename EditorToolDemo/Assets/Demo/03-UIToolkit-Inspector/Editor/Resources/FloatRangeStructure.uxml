@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Demo/03-UIToolkit-Inspector/Editor/Resources/FloatRangeStyle.uss?fileID=7433441132597879392&amp;guid=9b479a2c4cb8a934c8639ddd157c84d7&amp;type=3#FloatRangeStyle" />
+    <ui:VisualElement name="FloatRange" style="flex-grow: 0; flex-direction: row; overflow: hidden; justify-content: space-between;">
+        <ui:Label text="Title" name="FieldName" style="-unity-text-align: middle-left; min-width: 20px; flex-grow: 1; max-width: 130px; overflow: hidden; flex-shrink: 1; text-overflow: ellipsis;" />
+        <ui:VisualElement name="Fields" style="flex-grow: 1; align-items: flex-start; flex-direction: row-reverse; flex-shrink: 1;">
+            <ui:FloatField label="Min" value="0" name="Min" binding-path="m_Min" style="margin-right: 6px;" />
+            <ui:FloatField label="Max" value="0" name="Max" binding-path="m_Max" style="margin-right: 6px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
