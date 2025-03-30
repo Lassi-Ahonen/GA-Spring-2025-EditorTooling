@@ -2,6 +2,10 @@ using UnityEngine;
 
 namespace Lasriel {
 
+    /// <summary>
+    /// Enemy data and references.
+    /// In this demo the enemy has name, health and it can be killed which sets the health to zero.
+    /// </summary>
     public class Enemy : MonoBehaviour {
 
         [SerializeField] private string m_EnemyName = "Enemy";
