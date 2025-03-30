@@ -34,7 +34,20 @@ Attribute that checks boolean value and either disables or hides fields or prope
 ![EnabledCondition](https://github.com/user-attachments/assets/0b1dfa47-edab-40ae-9b98-6378bd9f4dea)
 
 ## 01-IMGUI
-TODO
+This demo shows how you can modify scene objects through editors and how you can create editor windows with IMGUI.
+
+[Demo Files](/EditorToolDemo/Assets/Demo/01-IMGUI)
+
+[Demo Scene](/EditorToolDemo/Assets/Scenes)
+
+### Enemy Tracker
+The window can be opened from `Window > Enemy Tracker`.
+
+
+Editor window that tracks all enemies in the scene and displays their name and health. Enemies can also be killed from the editor window by pressing kill button.
+
+![IMGUIEditorWindow](https://github.com/user-attachments/assets/abf48f10-bcac-424b-9eff-404d0a5cdaa2)
+
 
 ## 02-UI Toolkit Window
 TODO
