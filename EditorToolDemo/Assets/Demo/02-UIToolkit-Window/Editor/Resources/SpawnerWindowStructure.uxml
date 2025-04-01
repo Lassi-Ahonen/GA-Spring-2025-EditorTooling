@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Demo/02-UIToolkit-Window/Editor/Resources/SpawnerWindowStyle.uss?fileID=7433441132597879392&amp;guid=cb17736784e27924b9ab9ccf75bebe79&amp;type=3#SpawnerWindowStyle" />
+    <ui:ScrollView>
+        <ui:Label text="Spawner" name="Title" style="font-size: 24px; -unity-text-align: middle-center; margin-bottom: 8px; margin-top: 3px;" />
+        <ui:VisualElement name="SettingsContainer" style="flex-grow: 1;">
+            <uie:ObjectField label="Spawn" name="SpawnObject" type="UnityEngine.GameObject, UnityEngine.CoreModule" class="spawner-setting" />
+            <ui:Vector3Field label="Position" name="Position" class="spawner-setting" />
+            <ui:Vector3Field label="Rotation" name="Rotation" class="spawner-setting" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SpawningContainer" style="flex-grow: 1; flex-direction: row; margin-top: 4px;">
+            <ui:IntegerField label="Spawn Count" value="1" name="SpawnCount" />
+            <ui:Button text="Spawn" name="SpawnButton" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

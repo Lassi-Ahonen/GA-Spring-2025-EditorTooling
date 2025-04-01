@@ -1,0 +1,8 @@
+.spawner-setting {
+    margin-bottom: 4px;
+}
+
+#SpawnCount > .unity-integer-field__input {
+    min-width: 50px;
+    flex-grow: 1;
+}

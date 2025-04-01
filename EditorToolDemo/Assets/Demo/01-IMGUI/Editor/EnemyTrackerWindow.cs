@@ -16,6 +16,7 @@ namespace Lasriel.Editor {
         // Enemy managers that are being drawn
         [SerializeField] private EnemyManager[] m_Managers;
 
+        // Creates a menu item to the top toolbar under Window
         [MenuItem("Window/Enemy Tracker")]
         public static void Open() {
             // Open a new or existing editor window
